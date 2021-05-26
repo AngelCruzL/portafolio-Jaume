@@ -1,0 +1,27 @@
+.button {
+  background: var(--purple);
+  color: var(--white);
+  font: var(--button);
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  padding-block-start: 13px;
+  padding-block-end: 13px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button.is-secondary {
+  background: unset;
+  border: 2px solid var(--purple);
+  color: var(--purple);
+}
+
+@media (min-width: 768px) {
+  .button {
+    display: block;
+  }
+}

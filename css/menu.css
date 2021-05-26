@@ -1,0 +1,26 @@
+.menu {
+  display: none;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.menu ul a {
+  text-decoration: none;
+  color: var(--white);
+  text-transform: uppercase;
+  font: var(--button);
+}
+
+.menu ul a.is-active {
+  color: var(--purple);
+}
+
+@media (min-width: 768px) {
+  .menu {
+    display: block;
+  }
+}

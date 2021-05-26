@@ -1,0 +1,20 @@
+.info {
+  padding-block-start: 40px;
+  text-align: center;
+}
+
+.info p {
+  font: var(--headline5);
+}
+
+.info p:first-child {
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .info {
+    padding: 200px 0 120px 0;
+    /* padding-block-start: 200px; */
+    /* padding-block-end: 200px; */
+  }
+}

@@ -1,0 +1,24 @@
+.header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  z-index: 5;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  block-size: 80px;
+}
+
+@media (min-width: 768px) {
+  .header-content .button {
+    display: none;
+  }
+
+  .header-content {
+    justify-content: flex-start;
+    gap: 128px;
+  }
+}
